@@ -1,0 +1,40 @@
+
+.layout {
+    position: relative;
+    min-width: 1280px;
+    height: 500px;
+    margin-top: 0px;
+}
+.layout DIV {
+    position: absolute;
+}
+.col1 {
+    height: 500px;
+    background: gainsboro;
+    left: 0; right: 50%;
+    margin-top: 0px;
+    margin-right: 470px;
+    opacity: 0.4;
+    z-index: 1;
+    float: right;
+}
+.col2 {
+    height: 500px;
+    background: gainsboro;
+    width: 940px;
+    left: 50%;
+    margin-top: 0px;
+    margin-left: -470px;
+    opacity: 1;
+    z-index: 5;
+}
+.col3 {
+    height: 500px;
+    background: gainsboro;
+    left: 50%;
+    right: 0;
+    margin-top: 0px;
+    margin-left: 470px;
+    opacity: 0.4;
+    z-index: 1;
+}

@@ -1,0 +1,279 @@
+h2 {
+	text-align: center;
+}
+
+
+/*------------------------------------  TOP HEADER --------------------------------------------- */
+
+
+.topheader {
+	min-width: 940px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	padding: 0 0 0 0;
+
+}
+
+ul.topnavigation {
+	list-style: none;
+	color: #666;
+}
+
+.topnavigation li {
+	float: left;
+	margin-right: 18px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	text-decoration: underline;
+	text-decoration-color: #666;
+}
+
+.topnavigation li a:hover {
+	color: #000000;
+}
+
+.topnavigation li a:visited {
+	color: #666;
+}
+.headerstar {
+	margin-right: 5px;
+	margin-left: 0px;
+	float: left;
+}
+
+.headermail {
+	margin-left: 30px;
+	margin-right: 5px;
+}
+
+.navbar-link {
+	font-style: italic;
+	text-decoration-color: darkred;
+	color: darkred;
+	font-size: 13px;
+	margin-right: 15px;
+}
+
+hr {
+margin: 0 0 0 0
+}
+
+
+/* ----------------------------------------- LOGO BLOCK ------------------------------------------- */
+
+.headerinner {
+	min-width: 940px;
+	padding: 0 0 0 0;
+}
+
+.headercolumn {
+	text-align: center;
+	width: 33%;
+	float: left;
+	height: 80px;
+	margin-top: 45px;
+	margin-bottom: 80px;
+}
+
+.headerblock-logo {
+	margin-top: -5px;
+	text-align: left;
+}
+
+.logoimage {
+	margin-bottom: 20px;
+}
+
+.headerblock-venzel {
+	background: url("/img/h-info-top.png") no-repeat center top, url("/img/h-info-bottom.png") no-repeat center bottom;
+	text-align: center;
+}
+
+.info-venzel {
+	width: 280px;
+	height: 80px;
+	margin-top: 20px;
+	margin-left: 20px;
+	font-family: Times;
+	font-size: 18px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	line-height: 12px;
+}
+
+.contacts {
+	width: 310px;
+	height: 105px;
+	vertical-align: top;
+	position: relative;
+
+}
+
+.contactstable {
+	width: 310px;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	margin-top: -10px;
+}
+
+
+td.tspacer {
+	width: 90px;
+}
+
+.htablepics {
+	width: 30px;
+	height: 30px;
+	text-align: left;
+	vertical-align: top;
+	position: relative;
+}
+
+.htablepics>img {
+
+}
+
+.htableinfo {
+	width: 230px;
+	height: 30px;
+	text-align: left;
+	vertical-align: top;
+
+}
+@font-face {
+	font-family: Georgia;
+	src: url(/fonts/georgia.ttf);
+}
+.htableinfo>p {
+	margin: 0 0 0 0;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	font-family: Times;
+	vertical-align: baseline;
+
+
+}
+
+.htableinfo>a {
+
+	text-decoration-color: darkred;
+	text-decoration: underline;
+	font-family: Times;
+	color: darkred;
+}
+
+
+p.ptel {
+	font-family: Georgia;
+	font-weight: normal;
+	font-size: 22px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+/* -------------------- SLIDER 1 with MARGINS* ------------------------------------- */
+
+.mainmenuinner {
+	padding-top: 20px;
+	height: 60px;
+	min-width: 940px;
+	text-align: center;
+	vertical-align: bottom;
+
+}
+
+
+ul.mainnavigation {
+	margin: 0 auto;
+	width: auto;
+	display: table;
+	list-style: none;
+	color: black;
+}
+
+
+.mainnavigation li {
+	float: left;
+	margin-right: 18px;
+	margin-left: 18px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: underline;
+	text-decoration-color: black;
+	color: black;
+}
+
+.mainnavigation li a {
+
+	color: black;
+}
+
+/*
+.sliderbox {
+	
+	height: 500px;
+	width: 940px;
+	margin: 0 auto;
+}
+
+
+.slider1-content {
+	text-align: center;
+}
+img.slider1-content {
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+
+
+.banket-video-block {
+	text-align: center;
+}
+
+
+.banketzal-block {
+	float: left;
+	text-align: left;
+	
+}
+
+
+.videobox {
+	
+}
+
+
+
+
+
+
+
+
+.teamblock {
+	text-align: center;
+	
+}
+
+.teamperson {
+	text-align: center;
+	float: left;
+
+}
+
+.footerblock {
+	float: left;
+	text-align: left;
+}
+
+.basement {
+	width: 940px;
+	margin-bottom: 100px;
+}
+
+.basement-item {
+	float: left;
+}

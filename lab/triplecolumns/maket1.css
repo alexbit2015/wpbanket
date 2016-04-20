@@ -1,0 +1,29 @@
+.header {
+    background: #D5BAE4;
+}
+
+.layout {
+    position: relative; /* Относительное позиционирование */
+}
+
+.layout DIV {
+    position: absolute; /* Абсолютное позиционирование */
+}
+
+.col1 {
+    background: #C7E3E4; /* Цвет фона */
+    left: 0; /* Положение левого края */
+    right: 300px; /* Положение правого края */
+}
+
+.col2 {
+    background: #E0D2C7;
+    width: 200px; /* Ширина колонки */
+    right: 100px; /* Сдвигаем влево на ширину колонки 3 */
+}
+
+.col3 {
+    background: #ECD5DE;
+    width: 100px;
+    right: 0;
+}

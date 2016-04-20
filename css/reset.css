@@ -1,0 +1,22 @@
+a {
+    text-decoration-color: #666666;
+
+}
+
+link {
+    text-decoration-color: #666666;
+}
+
+a {
+    text-decoration-color: darkred;
+}
+
+
+a:visited {
+    text-decoration-color: darkred;
+}
+
+td {
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}

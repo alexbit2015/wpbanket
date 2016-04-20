@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="slick.css">
+    <link rel="stylesheet" href="slick-theme.css">
+    <link rel="stylesheet" href="mycss.css">
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="slick.min.js"></script>
+
+    <title></title>
+</head>
+<body>
+<div class="your-class">
+    <div class="myslide"><img src="car1.jpg"></div>
+    <div class="myslide"><img src="car2.jpg"></div>
+    <div class="myslide"><img src="car3.jpg"></div>
+    <div class="myslide"><img src="car4.jpg"></div>
+</div>
+<hr>
+
+<div>
+    <hr>
+</div>
+
+
+<button type="button" class="slick-prev">Previous</button>
+<button type="button" class="slick-next">Next</button>
+
+<script>
+    $(document).ready(function(){
+        $('.your-class').slick({
+            centerMode: true,
+            dots: true,
+            centerPadding: '0px',
+            autoplay: true,
+            autoplaySpeed: 3000,
+            slidesToShow: 3,
+            variableWidth: true
+
+
+    });
+    });
+</script>
+</body>
+</html>

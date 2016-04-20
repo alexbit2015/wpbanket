@@ -1,0 +1,22 @@
+.your-class {
+    padding: 0px 0px 0px 0px;
+    margin: 0 0 0 0;
+    height: 500px;
+}
+
+.myslide {
+    width: 700px;
+}
+
+.slick-center {
+    /*min-width: 700px;*/
+
+}
+
+.slick-current {
+
+}
+
+button {
+    z-index: 9;
+}

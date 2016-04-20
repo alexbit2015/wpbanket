@@ -1,0 +1,6 @@
+.header { background: #D5BAE4; }
+.layout { position: relative;}
+.layout DIV { position: absolute; }
+.col1 { background: #C7E3E4; width: 100px; }
+.col2 { background: #E0D2C7; width: 200px; left: 100px; }
+.col3 { background: #ECD5DE; left: 300px; right: 0; }
