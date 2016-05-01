@@ -1,0 +1,27 @@
+body {
+    background-color: #9acfea;
+}
+
+.tabwrapper {
+    position: relative;
+    width: 500px;
+    height: 200px;
+}
+
+
+.tab {
+    width: inherit;
+    height: inherit;
+    border: dashed;
+    border-radius: 2px;
+    visibility: hidden;
+    position: absolute;
+}
+
+.tabnav {
+    float: left;
+    margin-left: 20px;
+    text-decoration: none;
+    list-style: none;
+    background-color: #bce8f1;
+}
