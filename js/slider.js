@@ -32,4 +32,17 @@ $(document).ready(function(){
 
 
     });
+
+    // Slider 2
+    $('.ctr-slider').slick({
+        slidesToShow: 1,
+        speed: 700,
+        arrows: false,
+        dots: true,
+        fade: true,
+        autoplay: true,
+        autoplaySpeed: 15000,
+        infinite: true,
+        slidesToScroll: 1
+    });
 });
