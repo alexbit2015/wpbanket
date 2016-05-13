@@ -1,0 +1,218 @@
+
+/*=======================ALLL ABOVE ================================*/
+
+
+/* tabs */
+.tabs-block {
+	overflow: hidden;
+	text-align: center;
+	margin-bottom: 35px;
+}
+
+.tablister {
+	margin: 0 auto;
+	overflow: hidden;
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.tablister li {
+	float: left;
+	list-style: none;
+	cursor: pointer;
+	width: 114px;
+	padding-left: 51px;
+	height: 53px;
+	line-height: 53px;
+	border: 1px solid #960433;
+	border-top: 0;
+	color: #903;
+	font-family: "PTSans";
+	font-size: 15px;
+	font-weight: 700;
+	position: relative;
+	text-align: left;
+}
+.tablister li:before {
+	content: '';
+	display: block;
+	width: 25px;
+	position: absolute;
+	left: 15px;
+	top: 50%;
+}
+.tablister li.icon-photo:before {height: 24px; margin-top: -12px; background: url(/img/t-icon-photo.png) no-repeat 0 0;}
+.tablister li.icon-video:before {height: 21px; margin-top: -11px; background: url(/img/t-icon-video.png) no-repeat 0 0;}
+
+.tablister li:hover {
+	opacity: .8;
+}
+.tablister li.current {
+	background-color: #960433 !important;
+	border: 1px solid #960433 !important;
+	color: #FEFEFE;
+}
+.tablister li.current:before {
+	background-position: 0 100% !important;
+}
+
+.tabsinner {
+	margin: 0;
+	margin: 20px 0 0;
+	border-top: 1px solid #960433;
+	border-bottom: 1px solid #960433;
+	padding: 10px 0;
+}
+
+.tabs-max {
+	max-width: 1280px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.tab-item {
+	display: none;
+}
+
+.tab-item.visible {
+	display: block;
+}
+
+
+
+.c-team {
+	margin: 27px 0;
+	padding: 14px 0 5px;
+}
+
+.tabs-team .tabsinner {
+	border-top: 0;
+	border-bottom: 0;
+	margin: 12px 0 8px;
+	padding: 0;
+	height: 335px;
+}
+
+.tabs-team .tablister {
+	margin: 0 auto;
+	overflow: hidden;
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.tabs-team .tablister li {
+	float: left;
+	list-style: none;
+	cursor: pointer;
+	height: auto;
+	width: auto;
+	padding: 10px 0;
+	padding-left: 52px;
+	border: 0;
+	position: relative;
+	text-align: left;
+	color: #960433;
+	font-family: "PTSans";
+	font-size: 15px;
+	font-weight: 700;
+	text-decoration: underline;
+	margin: 0 12px;
+}
+.tabs-team .tablister li.icon-cooks {
+	padding-left: 58px;
+}
+.tabs-team .tablister li:before {
+	content: '';
+	display: block;
+	height: 21px;
+	position: absolute;
+	left: 15px;
+	top: 50%;
+	margin-top: -10px;
+}
+.tabs-team .tablister li.icon-managers:before {width: 25px; background: url(/img/t-icon-managers.png) no-repeat 0 0;}
+.tabs-team .tablister li.icon-cooks:before {width: 31px; background: url(/img/t-icon-cooks.png) no-repeat 0 0;}
+
+.tabs-team .tablister li:hover {
+	opacity: .8;
+	text-decoration: none;
+}
+.tabs-team .tablister li.current {
+	background-color: transparent !important;
+	border: none !important;
+	color: #CA9A5E;
+	text-decoration: none;
+}
+.tabs-team .tablister li.current:before {
+	background-position: 0 100% !important;
+}
+
+.t-item {
+	display: inline-block;
+	vertical-align: top;
+	width: 195px;
+	text-align: center;
+	margin: 0 17px;
+}
+.t-cooks .t-item {
+	white-space: nowrap;
+	width: 375px;
+	margin: 0 23px;
+}
+
+.t-photo {
+	display: block;
+	height: 280px;
+	display: table-cell;
+	width: 100%;
+	vertical-align: bottom;
+}
+.t-cooks .t-photo {
+	width: auto;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.t-photo img {
+	display: block;
+	max-width: 100%;
+	margin: 0 auto;
+	vertical-align: bottom;
+}
+
+.t-name {
+	color: #000;
+	font-family: "PTSans";
+	font-size: 16px;
+	font-weight: 700;
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+.t-cooks .t-info {
+	display: inline-block;
+	vertical-align: middle;
+	white-space: normal;
+	width: 170px;
+	margin-top: 70px;
+	background: url(/img/ck-arrow.png) no-repeat 0 0;
+}
+.t-cooks .t-item-left .t-info {
+	padding-right: 25px;
+	margin-right: 16px;
+	background-position: 100% 44px
+}
+.t-cooks .t-item-right .t-info {
+	padding-left: 25px;
+	margin-left: 16px;
+	background-position: 0 44px
+}
+
+.t-item p {
+	margin: 0;
+	color: #000;
+	font-family: "Georgia";
+	font-size: 12px;
+	font-weight: 400;
+}
